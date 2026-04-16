@@ -1,9 +1,10 @@
 🛡️ Detecção de Armas de Fogo (Pistolas e Fuzis) com YOLOv8Este projeto consiste no desenvolvimento e treinamento de um modelo de Visão Computacional para a detecção automatizada de armamentos em imagens. O projeto foi desenvolvido como trabalho prático final da disciplina de Visão Computacional e IA Generativa do MBA em Inteligência Artificial e Machine Learning.A solução foca na triagem automatizada de ameaças, visando otimizar processos de segurança pública e análise de evidências em contextos investigativos.
+
 🚀 Tecnologias Utilizadas
-Python 3.12YOLOv8 (Ultralytics): Arquitetura de detecção de objetos.
-OpenCV: Processamento de imagens.
-PyTorch: Framework de Deep Learning.
-UV: Gerenciador de pacotes e ambientes Python de alta performance.
+- Python 3.12YOLOv8 (Ultralytics): Arquitetura de detecção de objetos.
+- OpenCV: Processamento de imagens.
+- PyTorch: Framework de Deep Learning.
+- UV: Gerenciador de pacotes e ambientes Python de alta performance.
 
 📊 Resultados e Métricas
 
