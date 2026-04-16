@@ -1,0 +1,11 @@
+# Caminho relativo: aponta para a pasta 'dataset' que está no mesmo local do script
+path: dataset  
+
+train: train/images
+val: val/images
+test: val/images # Dica: Se não criou uma pasta 'test' separada, use a de 'val' para não dar erro
+
+# Nomes das classes (Mantenha a ordem que você usou no YoloLabel)
+names:
+  0: Pistola
+  1: Fuzil

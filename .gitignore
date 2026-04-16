@@ -1,0 +1,34 @@
+# --- AMBIENTE E FERRAMENTAS ---
+venv_trabalho/
+YoloLabel-Windows-x64/
+YoloLabel-Windows-x64.zip
+yolov8n.pt
+ambiente.txt
+
+# --- DADOS E MÍDIAS (Privacidade PCDF/GDF) ---
+# Ignora fotos e vídeos que possam conter informações sensíveis
+dataset/
+images/
+video/
+output/
+classes_dataset.txt
+
+# --- RESULTADOS TEMPORÁRIOS ---
+# Mantemos o best.pt na raiz, mas ignoramos a pasta de logs runs
+runs/
+__pycache__/
+.DS_Store
+Thumbs.db
+
+# --- DOCUMENTOS DE TRABALHO ---
+# Ignora o rascunho em Word (envie apenas o PDF final no portal)
+trabalho_pratico_final.docx
+
+# --- EXCEÇÕES (O que DEVE subir) ---
+!best.pt
+!config.yaml
+!inferencia.py
+!treino.py
+!readme.md
+!requirements.txt
+!sample_images/
